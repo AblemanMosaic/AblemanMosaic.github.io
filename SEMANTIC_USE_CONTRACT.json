@@ -1,0 +1,28 @@
+{
+  "schema": "amcs.semantic-use-contract.v0.6",
+  "projection": "Ableman Mosaic organization gateway preview",
+  "projectionRule": "A local review projection that introduces the public repository ecosystem and links to exact external repository identities. It does not merge semantic identities, alter source repositories, grant author standing, or publish any artifact.",
+  "standing": "LOCAL_REVIEW_CANDIDATE",
+  "non_effects": [
+    "author_standing",
+    "semantic_identity_merge",
+    "source_mutation",
+    "publication",
+    "implementation_authorization"
+  ],
+  "uses": {},
+  "source_bound_labels": {
+    "Ableman Corpus Atlas": "Public interface title bound to the existing Ableman Corpus project site.",
+    "Constitutional Computing": "Authorial field label; no new registry identity inferred by this projection.",
+    "Mosaic UCM": "Repository display name bound only to https://github.com/AblemanMosaic/mosaic-ucm.",
+    "UGK": "Repository display name bound only to https://github.com/AblemanMosaic/ugk.",
+    "Invariant Workbench": "Repository display name bound only to https://github.com/AblemanMosaic/invariant-workbench.",
+    "CMBA Core": "Repository display name bound only to https://github.com/AblemanMosaic/cmba-core.",
+    "SemCrys Core": "Repository display name bound only to https://github.com/AblemanMosaic/semcrys-core.",
+    "CSoftA Canonical": "Repository display name bound only to https://github.com/AblemanMosaic/CSoftA-Canonical.",
+    "CBMD Open Research": "Repository display name bound only to https://github.com/AblemanMosaic/cbmd-open-research.",
+    "BAK UCM Case Study": "Repository display name bound only to https://github.com/AblemanMosaic/bak-ucm-case-study.",
+    "Leap42": "Repository display name bound only to https://github.com/AblemanMosaic/Leap42.",
+    "repository_paper_relations": "Generated interface proposals for author review. They do not merge artifact, publication, work, version-family, repository, or concept identities."
+  }
+}
